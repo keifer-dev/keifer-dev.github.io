@@ -1,3 +1,308 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Home | GrahamConsulting</title>
+    <meta name="description" content="Page-specific description" />
+    <meta name="keywords" content="Page-specific keywords" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      rel="shortcut icon"
+      href="static/images/favicons/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="static/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="static/images/favicons/apple-touch-icon-precomposed.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin,cyrillic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="static/css/screen.min.css" />
+    <link rel="stylesheet" href="static/css/custom.min.css" />
+  </head>
+  <body>
+    <!-- $Page header-->
+    <header class="page-header">
+      <div class="page-header__inner">
+        <!-- $Page navigation-->
+        <nav class="page-nav">
+          <a class="page-nav__link" href="#">Home</a
+          ><a class="page-nav__link" href="#">About</a
+          ><a class="page-nav__link" href="#">Blog</a
+          ><a class="page-nav__link" href="#">Contact</a>
+        </nav>
+        <!-- $Actions-->
+        <div class="actions">
+          <a class="actions__link" href="#">Register</a
+          ><a class="actions__link" href="#">Log in</a>
+        </div>
+      </div>
+    </header>
+    <!-- $Promo-->
+    <section class="promo">
+      <div class="promo__inner">
+        <div class="promo__header">
+          <div class="promo__logo">
+            <!-- $Logo-->
+            <h1 class="logo">
+              <span class="logo__text"
+                >Software Engineering and Development Services.</span
+              >
+            </h1>
+          </div>
+          <div class="promo__proposal">
+            <h2>TODO: Promotion</h2>
+          </div>
+        </div>
+        <!-- $Slider-->
+        <div class="slider">
+          <input
+            class="slider__radio"
+            id="button-one"
+            type="radio"
+            name="controls"
+            checked="checked"
+          />
+          <label class="slider__control" for="button-one"></label>
+          <input
+            class="slider__radio"
+            id="button-two"
+            type="radio"
+            name="controls"
+          />
+          <label class="slider__control" for="button-two"></label>
+          <input
+            class="slider__radio"
+            id="button-three"
+            type="radio"
+            name="controls"
+          />
+          <label class="slider__control" for="button-three"></label>
+          <ul class="slider__items">
+            <li class="slider__item" id="slide-one">
+              <div class="slider__item-info">
+                <h2 class="slider__item-title">Space</h2>
+                <p class="slider__item-date">
+                  Microgravity Drop Capsule, with CASPER, 2018
+                </p>
+                <p class="slider__item-text">
+                  Lead team of senior student design engineers to design and assemble a drop capsule system capable of simulating microgravity for research purposes at the Center for Astrophysics, Space Physics, and Engineering Research located at Baylor University.
+                </p>
+                <p class="slider__item-text">
+                  Drop Capsule System consisted of capsule, capsule carrier, and drop tower to simulate microgravity quality of .01. 
+                </p>
+              </div>
+              <figure class="slider__item-image">
+                <img src="static/images/SpaceCapsule.jpg" alt="Space Capsule" />
+                <figcaption>
+                  <a href="#">See more about this project</a>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="slider__item" id="slide-two">
+              <div class="slider__item-info">
+                <h2 class="slider__item-title">Defense</h2>
+                <p class="slider__item-date">
+                  Helicopter Squadron Software Support, with NAVAIR, 2018-2021
+                </p>
+                <p class="slider__item-text">
+                  Worked closely with U.S. Navy Combat Helicopter Squadrons to provide mission software support and solutions to improve mission capabilities.
+                </p>
+                <p class="slider__item-text">
+                  Fixed problem reports, added capabilities to improve efficiency of mission planning.
+                </p>
+                <p class="slider__item-text">
+                  Worked with pilots in simulators and test benches to preform root cause analysis for potential software deficiencies.
+                </p>
+              </div>
+              <figure class="slider__item-image">
+                <img src="static/images/Helo.jpg" alt="MH-60 Helicopter" />
+                <figcaption>
+                  <a href="#">See more about this project</a>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="slider__item" id="slide-three">
+              <div class="slider__item-info">
+                <h2 class="slider__item-title">Future</h2>
+                <p class="slider__item-date">
+                  Future Vertical Lift, with Bell Flight, 2021-2022
+                </p>
+                <p class="slider__item-text">
+                  Working to provide future airborne capabilities to the U.S. military and its allies.
+                </p>
+                <p class="slider__item-text">
+                  Specifically, working to provide a modular avionics software solution to customers which will make the product more affordable to acquire, maintain, and enhance. 
+                </p>
+              </div>
+              <figure class="slider__item-image">
+                <img src="static/images/TiltRotor.jpg" alt="V-22 Osprey Tiltrotor" />
+                <figcaption>
+                  <a href="#">See more about this project</a>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- $Page content-->
+    <main class="page-content">
+      <div class="page-content__inner">
+        <!-- $Choice-->
+        <div class="choice">
+          <h2 class="choice__title">Why choose GrahamConsulting?</h2>
+          <p class="choice__text">
+            Graham Consulting is a small business striving to supply software engineering consultation and solutions to a wide variety of complex software engineering projects.
+          </p>
+        </div>
+        <!-- $Testimonials-->
+        <div class="testimonials">
+          <h2 class="testimonials__title">Testimonials</h2>
+          <ul class="testimonials__list">
+            <li class="testimonials__item">
+              <img
+                class="testimonials__avatar"
+                src="static/images/ava.jpg"
+                alt="Some avatar"
+              />
+              <p class="testimonials__text">
+                TODO: Future release.
+              </p>
+              <p class="testimonials__text">
+                TODO: Future release.
+              </p>
+            </li>
+            <li class="testimonials__item">
+              <img
+                class="testimonials__avatar"
+                src="static/images/ava.jpg"
+                alt="Some other avatar"
+              />
+              <p class="testimonials__text">
+                TODO: Future release.
+              </p>
+              <p class="testimonials__text">
+                TODO: Future release.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <!-- $Projects-->
+        <div class="projects">
+          <h2 class="projects__title">More projects</h2>
+          <a
+            class="projects__link projects__link_first"
+            href="#"
+            title="Project name"
+            >Project name</a
+          ><a
+            class="projects__link projects__link_second"
+            href="#"
+            title="Project name"
+            >Project name</a
+          ><a
+            class="projects__link projects__link_third"
+            href="#"
+            title="Project name"
+            >Project name</a
+          ><a
+            class="projects__link projects__link_fourth"
+            href="#"
+            title="Project name"
+            >Project name</a
+          >
+        </div>
+        <!-- $Request-->
+        <div class="request">
+          <h2 class="request__title">Request a design</h2>
+          <p class="request__text">
+            Always wondered how something you saw on the web is realised?
+          </p>
+          <p class="request__text">
+            Contact us via the link below and we&grave;ll get back at you as
+            soon as possible!
+          </p>
+          <a class="request__btn" href="#">Contact us!</a>
+        </div>
+        <!-- $News-->
+        <div class="news">
+          <h2 class="news__title">Newsletter</h2>
+          <p class="news__text">Be the first to know our latest updates!</p>
+          <!-- $Subscribe form-->
+          <form class="subscribe-form" action="#" method="post">
+            <input
+              type="email"
+              name="Emailaddress"
+              placeholder="Email address"
+              id=""
+            />
+            <input type="submit" value="Subscribe!" />
+          </form>
+        </div>
+      </div>
+    </main>
+    <!-- $Page footer-->
+    <footer class="page-footer">
+      <div class="page-footer__inner">
+        <div class="page-footer__copyright">
+          Copyright 2022 GrahamConsulting - keier-dev.github.io<br />All rights
+          reserved.
+        </div>
+        <!-- $Social-->
+        <div class="social">
+          <span class="social__title">Follow us:</span>
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link_fb" href="#" title="Facebook"
+                >Facebook</a
+              >
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link_tw" href="#" title="Twitter"
+                >Twitter</a
+              >
+            </li>
+            <li class="social__item">
+              <a
+                class="social__link social__link_gplus"
+                href="#"
+                title="Google+"
+                >Google+</a
+              >
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link_in" href="#" title="Linkedin"
+                >Linkedin</a
+              >
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link_rss" href="#" title="Rss feed"
+                >Rss feed</a
+              >
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link_fl" href="#" title="Flickr"
+                >Flickr</a
+              >
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link_you" href="#" title="YouTube"
+                >YouTube</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
